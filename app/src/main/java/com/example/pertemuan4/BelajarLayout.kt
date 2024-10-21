@@ -45,6 +45,10 @@ fun BelajarLayout(
             param = "Prodi",
             argu = "Teknologi Informasi"
         )
+        DetailMhs(
+            param = "Fakultas",
+            argu = "Teknik"
+        )
     }
 }
 
