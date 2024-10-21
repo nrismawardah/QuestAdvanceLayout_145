@@ -49,6 +49,18 @@ fun BelajarLayout(
             param = "Fakultas",
             argu = "Teknik"
         )
+        DetailMhs(
+            param = "Universitas",
+            argu = "Universitas Muhammadiyah Yogyakarta"
+        )
+        DetailMhs(
+            param = "Alamat",
+            argu = "Jl. Pahlawan No.1"
+        )
+        DetailMhs(
+            param = "Email",
+            argu = "nrismawardah@gmail.com"
+        )
     }
 }
 
@@ -60,7 +72,7 @@ fun HeaderSection(){
             .background(Color.LightGray)
     ) {
         Row(
-            modifier = Modifier.fillMaxSize().padding(16.dp)
+            modifier = Modifier.fillMaxWidth().padding(16.dp)
         ) {
             Box(
                 contentAlignment = Alignment.BottomEnd
