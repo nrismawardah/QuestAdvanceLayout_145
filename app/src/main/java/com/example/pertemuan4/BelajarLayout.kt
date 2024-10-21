@@ -80,7 +80,7 @@ fun HeaderSection(){
                 Image(
                     painter = painterResource(id = R.drawable.umy),
                     contentDescription = null,
-                    modifier = Modifier.size(50.dp).clip(CircleShape)
+                    modifier = Modifier.size(90.dp).clip(CircleShape)
                 )
                 Icon(
                     Icons.Filled.Check,
